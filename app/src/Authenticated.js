@@ -8,7 +8,7 @@ function Authenticated() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          Welcome to your gated content demo. < /br>
+          Welcome to your gated content demo. <br/>
           Thank you for logging in!
         </h1>
       </header>
