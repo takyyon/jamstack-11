@@ -7,11 +7,6 @@
             "statusCode" : 200
         },
         {
-            "route" : "/authenticated/*",
-	    "serve" : "/.auth/login/aad?post_login_redirect_uri=/index.html",
-            "statusCode" : 200
-        },
-        {
             "route" : "/recipes/*",
 	    "serve" : "/index.html",
             "statusCode" : 200
