@@ -8,7 +8,7 @@ function Home() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to our recipes site!
+          Welcome to my recipes site!
         </p>
         <a
           className="App-link"
@@ -20,7 +20,7 @@ function Home() {
           className="App-link"
           href="/authenticated/"
         >
-        This is gated content. Please login below!
+        This is gated content. Please login below.
         </a>
 		        <a 
           className="App-link"
