@@ -3,13 +3,14 @@
         {
             "route" : "/authenticated/*",
 	    "serve" : "/index.html",
-            "allowedRoles" : ["authenticated,anonymous"],
+            "allowedRoles" : ["anonymous"],
             "statusCode" : 200
         },
         {
             "route" : "/recipes/*",
 	    "serve" : "/index.html",
-            "statusCode" : 200
+            "statusCode" : 200,
+	    "allowedRoles" : ["authenticated"]
         }
     ]
 }
