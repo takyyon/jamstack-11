@@ -10,7 +10,7 @@ module.exports = async function (context, req) {
         "results": [
             {
                 "name": "Homemade Strawberry Jam",
-                "quantity": "2 cups",
+                "quantity": "3 cups",
                 "ingredients": [
                     "2 lb. strawberries, halved",
                     "1 c. granulated sugar",
