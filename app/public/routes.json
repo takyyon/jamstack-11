@@ -10,7 +10,7 @@
             "route" : "/recipes/*",
 	    "serve" : "/index.html",
             "statusCode" : 200,
-	    "allowedRoles" : ["viewer"]
+	    "allowedRoles" : ["anonymous"]
         }
     ]
 }
