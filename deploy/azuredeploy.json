@@ -3,36 +3,34 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
+            "defaultValue": "StaticApp",
             "type": "string"
         },
         "location": {
-            "type": "string"
-        },
-        "sku": {
-            "type": "string"
-        },
-        "skucode": {
+            "defaultValue": "westus",
             "type": "string"
         },
         "repositoryUrl": {
+            "defaultValue": "https://github.com/anganti/jamstack-demo",
             "type": "string"
         },
         "branch": {
-            "type": "string"
-        },
-        "createOrUpdateWorkflow": {
+            "defaultValue": "master",
             "type": "string"
         },
         "repositoryToken": {
             "type": "securestring"
         },
         "appLocation": {
+            "defaultValue": "/",
             "type": "string"
         },
         "apiLocation": {
+            "defaultValue": "api",
             "type": "string"
         },
         "appArtifactLocation": {
+            "defaultValue": "",
             "type": "string"
         }
     },
@@ -54,8 +52,8 @@
                 }
             },
             "sku": {
-                "Tier": "[parameters('sku')]",
-                "Name": "[parameters('skuCode')]"
+                "Tier": "Basic",
+                "Name": "Basic"
             }
         }
     ]
